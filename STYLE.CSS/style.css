@@ -1,0 +1,192 @@
+.main{
+    font-family: "Cinzel", sans-serif;
+    font-weight: 500;
+    color:rgb(23, 29, 29);
+    min-height: 100vh;
+    background-image:url('/ASSETS/download\ \(13\).jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    margin: 0%;
+
+
+
+}
+
+.pinyon-script-regular {
+  font-family: "Pinyon Script", cursive;
+  font-size: 80px;
+  font-weight: bolder;
+  font-style: normal;
+  margin-right: 15px;
+}
+
+
+.headers {
+  font-family: "Cormorant SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+
+.sid{
+    width: 300px;
+    height: 80%;
+    margin: 20px;
+    border-style: solid;
+    border-radius: 30px;
+    border: solid 1px;
+
+}
+
+.sid:hover {
+   transform: scale(1.02);
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(141, 118, 127, 0.3);
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgba(192, 108, 179, 0.2);
+    border-radius: 7px;
+    
+   
+}
+
+ul li{
+    float: left;
+
+}
+
+ul li a{
+    display: block;
+    color: rgb(29, 28, 28);
+    text-align:center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+.nav{
+    margin: 20px 20px 20px;
+    /* position: sticky;
+    top: 0; */
+
+}
+
+ul li a:hover{
+    font-size: larger;
+    border-right: solid 2px pink;
+    border-radius: 5px;
+    box-shadow: 0 8px 15px rgba(141, 118, 127, 0.3);
+    transition: ease-in-out;
+    
+}
+
+ul li a.active{
+    border-right: solid 3px palevioletred;
+    border-right: solid 2px pink;
+    border-radius: 5px;
+    box-shadow: 0 8px 15px rgba(141, 118, 127, 0.3);
+   
+}
+
+.welcome{
+    text-align: center;
+}
+
+.welvid{
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.container{
+
+    margin: 10px 10px 10px 10px;
+    border: 1cm;
+    border: solid;
+    border-color: rgba(238, 136, 197, 0.6); 
+    border-radius: 10px;
+    padding: 20px 25px;
+    margin: 20px 20px 20px;
+
+}
+
+/* .container img{
+    height: auto;
+    width: 250px;
+    border: 1px;
+    border-radius: 5px;
+    
+} */
+.para > img, .hobbies{
+    width: 40%;
+    border: 1px;
+    border-radius: 5px;
+    
+}
+
+.para > img, .studentID{
+    height: 350px;
+    object-fit: cover;
+}
+
+.hobbies{
+    display: flex;
+    gap: 10px;
+    height: 300px;
+}
+
+.hobbies > img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px;
+    border-radius: 5px;
+}
+
+.para {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 40px;
+    border: 1cm;
+    border: solid;
+    border-color: rgba(211, 201, 207, 0.6);
+    border-radius: 10px;
+    padding: 20px 20px;
+    box-shadow: 0 8px 15px rgba(141, 118, 127, 0.3);
+}
+.para p{
+    flex: 1;
+}
+
+.contac{
+    font-size: larger;
+    font-weight: bold;
+    flex: 1;
+}
+
+.hobbies > img:hover, .para >img:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(141, 118, 127, 0.3);
+}
+.para > a{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+   
+    
+}
+
+
